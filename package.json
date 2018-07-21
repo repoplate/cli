@@ -17,6 +17,9 @@
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.js",
+  "bin": {
+    "repoplate": "./bin/repoplate"
+  },
   "scripts": {
     "dist": "npm-run-all dist:clean dist:build",
     "dist:build": "tsc -p tsconfig.dist.json",
